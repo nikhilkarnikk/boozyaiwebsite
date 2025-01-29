@@ -81,7 +81,7 @@ function HomePage() {
       {/* Give image more space */}
       <div className="lg:w-3/5 mt-12 lg:mt-0">
         <img
-          src="/public/assets/boozyloading.png"
+          src="/assets/boozyloading.png"
           alt="Boozy loading illustration"
           className="rounded-2xl w-full h-auto"
         />
