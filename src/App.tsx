@@ -11,7 +11,7 @@ function Layout({ children }: { children: React.ReactNode }) {
             <div className="flex items-center space-x-2 w-1/3">
             <img
             className="h-8 w-8"
-            src="/public/assets/boozyLogo.png"
+            src="/assets/boozyLogo.png"
             alt="Boozy Logo"
           />
               <span className="text-xl font-bold text-gray-900">Boozy AI</span>
