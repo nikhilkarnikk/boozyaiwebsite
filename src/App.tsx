@@ -11,7 +11,7 @@ function Layout({ children }: { children: React.ReactNode }) {
             <div className="flex items-center space-x-2 w-1/3">
             <img
             className="h-8 w-8"
-            src="/boozyLogo.png"
+            src="/src/boozyLogo.png"
             alt="Boozy Logo"
           />
               <span className="text-xl font-bold text-gray-900">Boozy AI</span>
@@ -81,7 +81,7 @@ function HomePage() {
       {/* Give image more space */}
       <div className="lg:w-3/5 mt-12 lg:mt-0">
         <img
-          src="/boozyloading.png"
+          src="/src/boozyloading.png"
           alt="Boozy loading illustration"
           className="rounded-2xl w-full h-auto"
         />
