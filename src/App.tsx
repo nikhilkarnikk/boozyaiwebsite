@@ -179,13 +179,116 @@ function PrivacyPolicy() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
         <div className="prose prose-lg">
-          <p>Last updated: January 2025</p>
-          <h2>1. Information We Collect</h2>
-          <p>We collect information that you provide directly to us, including photos of beverages, usage data, and account information.</p>
-          <h2>2. How We Use Your Information</h2>
-          <p>We use the information to provide and improve our services, develop new features, and protect our users.</p>
-          <h2>3. Data Security</h2>
-          <p>We implement appropriate security measures to protect your personal information.</p>
+          <p className="text-gray-600">Last updated: January 31, 2025</p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
+          <p>
+            Welcome to Boozy AI ("we," "our," or "us"). We are committed to protecting your privacy 
+            and ensuring you have a positive experience when using our drink tracking and analysis application.
+            This policy outlines our practices for collecting, using, and safeguarding your personal information.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2. Information We Collect</h2>
+          <h3 className="text-xl font-medium mt-6 mb-3">2.1 Information You Provide</h3>
+          <ul className="list-disc pl-6 mb-4">
+          <li>Basic account information (email and username)</li>
+            <li>Optional user details (weight and gender) for BAC calculation accuracy</li>
+            <li>Drink entries and timestamps</li>
+            <li>Social sharing preferences</li>
+          </ul>
+
+          <h3 className="text-xl font-medium mt-6 mb-3">2.2 Automatically Collected Information</h3>
+          <ul className="list-disc pl-6 mb-4">
+          <li>Basic device information required for app functionality</li>
+          <li>Time stamps of drink entries</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">3. How We Use Your Information</h2>
+          <p>We use your information to:</p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>Analyze beverage photos and calculate BAC and caloric content</li>
+            <li>Provide personalized drink tracking and recommendations</li>
+            <li>Enable social sharing features with your connections</li>
+            <li>Improve our services and develop new features</li>
+            <li>Ensure the security and proper functioning of our app</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">4. Data Sharing and Disclosure</h2>
+          <p>We share your information only in the following circumstances:</p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>With other users when you explicitly choose to share your drink data</li>
+            <li>With service providers who assist in our operations</li>
+            <li>When required by law or to protect rights and safety</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">5. Data Security</h2>
+          <p>
+            We implement appropriate technical and organizational security measures to protect your 
+            personal information from unauthorized access, disclosure, or destruction. However, no 
+            internet transmission is completely secure, and we cannot guarantee the security of 
+            information transmitted through our app.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">6. Your Rights and Choices</h2>
+          <p>You have the right to:</p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>Access and download your personal data</li>
+            <li>Correct or update your information</li>
+            <li>Delete your account and associated data</li>
+            <li>Opt-out of promotional communications</li>
+            <li>Control social sharing settings</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">7. Children's Privacy</h2>
+          <p>
+            Our app is not intended for users under the age of 21. We do not knowingly collect 
+            personal information from individuals under 21 years of age.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">8. Changes to This Policy</h2>
+          <p>
+            We may update this Privacy Policy from time to time. We will notify you of any changes 
+            by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">9. Subscription Information</h2>
+          <div className="bg-gray-50 rounded-lg p-6 mb-6">
+            <h3 className="text-xl font-medium mb-4">Subscription Options</h3>
+            <div className="space-y-4">
+              <div className="border-b pb-4">
+                <h4 className="font-medium mb-2">Monthly Subscription</h4>
+                <p>$1.99 per month</p>
+                <p className="text-sm text-gray-600">Auto-renews monthly until canceled</p>
+              </div>
+              <div className="border-b pb-4">
+                <h4 className="font-medium mb-2">Annual Subscription</h4>
+                <p>$9.99 per year</p>
+                <p className="text-sm text-gray-600">Auto-renews yearly until canceled</p>
+              </div>
+            </div>
+          </div>
+          <p>
+            Payment will be charged to your Apple ID account at confirmation of purchase. 
+            Subscription automatically renews unless it is canceled at least 24 hours before 
+            the end of the current period. Your account will be charged for renewal within 
+            24 hours prior to the end of the current period at the cost of the chosen 
+            subscription plan. You can manage and cancel your subscriptions by going to your 
+            account settings on the App Store after purchase.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">10. Contact Us</h2>
+          <p>
+            If you have any questions about this Privacy Policy or our practices, please contact us at:
+            <br />
+            Email: boozyaiapp@gmail.com
+          </p>
+
+          <div className="mt-12 pt-8 border-t border-gray-200">
+            <p className="text-sm text-gray-600">
+              By using Boozy AI, you agree to the collection and use of information in accordance 
+              with this Privacy Policy.
+            </p>
+          </div>
         </div>
       </div>
     </Layout>
