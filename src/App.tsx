@@ -58,8 +58,9 @@ function HomePage() {
 
         <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
-            <div className="flex flex-col lg:flex-row items-center">
-              <div className="lg:w-2/5 text-left lg:pr-12">
+            {/* Use flex-col-reverse on mobile to show image first, then switch to row on lg screens */}
+            <div className="flex flex-col-reverse lg:flex-row items-center">
+              <div className="lg:w-2/5 text-center lg:text-left mt-12 lg:mt-0 lg:pr-12">
                 <h1 className="text-5xl font-bold text-gray-900 mb-6">
                   Track Your Alcohol Intake<br />With Just a Photo
                 </h1>
@@ -67,21 +68,33 @@ function HomePage() {
                   Using advanced AI technology to help you make informed decisions about your drinking habits.
                   Simply snap a photo of your drink and get instant analysis.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="flex flex-row justify-center lg:justify-start gap-4">
                   <a 
                     href="https://apps.apple.com/us/app/boozy-ai/id6739364754"
                     target="_blank"
                     rel="noopener noreferrer" 
-                    className="h-14 w-48 bg-black rounded-lg flex items-center justify-center text-white hover:bg-gray-800 cursor-pointer"
+                    className="w-48 h-14"
                   >
-                    App Store Download
+                    <img 
+                      src="/assets/appstoredownload.png" 
+                      alt="Download on App Store"
+                      className="w-full h-full object-contain"
+                    />
                   </a>
-                  <div className="h-14 w-48 bg-black rounded-lg flex items-center justify-center text-white hover:bg-gray-800 cursor-pointer">
-                    Google Play Download
-                  </div>
+                  <a 
+                    href="#" 
+                    className="w-48 h-14"
+                  >
+                    <img 
+                      src="/assets/googleplaybutton.png" 
+                      alt="Get it on Google Play"
+                      className="w-full h-full object-contain"
+                    />
+                  </a>
                 </div>
               </div>
-              <div className="lg:w-3/5 mt-12 lg:mt-0">
+              
+              <div className="lg:w-3/5">
                 <img
                   src="/assets/boozyloading.png"
                   alt="Boozy loading illustration"
