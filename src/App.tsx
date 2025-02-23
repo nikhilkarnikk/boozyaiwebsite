@@ -56,39 +56,41 @@ function HomePage() {
       <main>
         {/* Hero Section */}
 
-<section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-  <div className="max-w-7xl mx-auto">
-    <div className="flex flex-col lg:flex-row items-center">
-      {/* Give text less space so the image can be bigger */}
-      <div className="lg:w-2/5 text-left lg:pr-12">
-        <h1 className="text-5xl font-bold text-gray-900 mb-6">
-          Track Your Alcohol Intake<br />With Just a Photo
-        </h1>
-        <p className="text-xl text-gray-600 mb-8">
-          Using advanced AI technology to help you make informed decisions about your drinking habits.
-          Simply snap a photo of your drink and get instant analysis.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4">
-          <div className="h-14 w-48 bg-black rounded-lg flex items-center justify-center text-white hover:bg-gray-800 cursor-pointer">
-            App Store Download
+        <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex flex-col lg:flex-row items-center">
+              <div className="lg:w-2/5 text-left lg:pr-12">
+                <h1 className="text-5xl font-bold text-gray-900 mb-6">
+                  Track Your Alcohol Intake<br />With Just a Photo
+                </h1>
+                <p className="text-xl text-gray-600 mb-8">
+                  Using advanced AI technology to help you make informed decisions about your drinking habits.
+                  Simply snap a photo of your drink and get instant analysis.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <a 
+                    href="https://apps.apple.com/us/app/boozy-ai/id6739364754"
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    className="h-14 w-48 bg-black rounded-lg flex items-center justify-center text-white hover:bg-gray-800 cursor-pointer"
+                  >
+                    App Store Download
+                  </a>
+                  <div className="h-14 w-48 bg-black rounded-lg flex items-center justify-center text-white hover:bg-gray-800 cursor-pointer">
+                    Google Play Download
+                  </div>
+                </div>
+              </div>
+              <div className="lg:w-3/5 mt-12 lg:mt-0">
+                <img
+                  src="/assets/boozyloading.png"
+                  alt="Boozy loading illustration"
+                  className="rounded-2xl w-full h-auto"
+                />
+              </div>
+            </div>
           </div>
-          <div className="h-14 w-48 bg-black rounded-lg flex items-center justify-center text-white hover:bg-gray-800 cursor-pointer">
-            Google Play Download
-          </div>
-        </div>
-      </div>
-
-      {/* Give image more space */}
-      <div className="lg:w-3/5 mt-12 lg:mt-0">
-        <img
-          src="/assets/boozyloading.png"
-          alt="Boozy loading illustration"
-          className="rounded-2xl w-full h-auto"
-        />
-      </div>
-    </div>
-  </div>
-</section>
+        </section>
 
 
 
